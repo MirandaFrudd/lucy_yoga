@@ -1,0 +1,32 @@
+.review_img{
+  height:450px;
+  object-fit: cover;
+  width: 350px;
+  margin: 25px 25px 25px 0px;
+}
+
+#reviews-page{
+  display: flex;
+  justify-content: center;
+}
+
+.review-intro{
+  background-color: white;
+  padding: 25px;
+  height: 450px;
+  width: 350px;
+
+}
+
+.review-intro p{
+  color: #696969;
+  margin-top: 30%;
+}
+
+.review-intro h3{
+  color: #696969;
+  margin-top: 10px;
+  text-align: center;
+  font-weight: bolder;
+
+}

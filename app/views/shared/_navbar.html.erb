@@ -15,16 +15,16 @@
           <%= link_to "Home", root_path, class: "nav-link" %>
         </li>
            <li class="nav-item">
-          <%= link_to "About Lucy", "#", class: "nav-link" %>
+          <%= link_to "About Lucy", "/pages/about", class: "nav-link" %>
         </li>
         <li class="nav-item">
-          <%= link_to "Classes", "#", class: "nav-link" %>
+          <%= link_to "Classes", "/pages/classes", class: "nav-link" %>
         </li>
         <li class="nav-item">
-          <%= link_to "Reviews", "#", class: "nav-link" %>
+          <%= link_to "Reviews", "/pages/reviews", class: "nav-link" %>
         </li>
         <li class="nav-item">
-          <%= link_to "Shop", "#", class: "nav-link" %>
+          <%= link_to "Shop", "/pages/shop", class: "nav-link" %>
         </li>
         <%= link_to "Log out", destroy_user_session_path, method: :delete, class: "dropdown-item" %>
         <li class="nav-item dropdown">
@@ -36,17 +36,20 @@
           </div>
         </li>
       <% else %>
+        <li class="nav-item active">
+          <%= link_to "Home", root_path, class: "nav-link" %>
+        </li>
           <li class="nav-item">
-          <%= link_to "About Lucy", "#", class: "nav-link" %>
+          <%= link_to "About Lucy", "/pages/about", class: "nav-link" %>
         </li>
         <li class="nav-item">
-          <%= link_to "Classes", "#", class: "nav-link" %>
+          <%= link_to "Classes", "/pages/classes", class: "nav-link" %>
         </li>
         <li class="nav-item">
-          <%= link_to "Reviews", "#", class: "nav-link" %>
+          <%= link_to "Reviews", "/pages/reviews", class: "nav-link" %>
         </li>
         <li class="nav-item">
-          <%= link_to "Shop", "#", class: "nav-link" %>
+          <%= link_to "Shop", "/pages/shop", class: "nav-link" %>
         </li>
         <li class="nav-item">
           <%= link_to "Login", new_user_session_path, class: "nav-link" %>
